@@ -1,0 +1,18 @@
+.footer {
+    text-align: center;
+    color: rgb(255, 255, 255);
+     background-color: rgba(92, 183, 35, 0.938);
+     padding: 20px;
+}
+
+.footer img { 
+    width: 100px;
+    height: 80px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: 10px;
+}

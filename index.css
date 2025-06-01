@@ -1,0 +1,90 @@
+*{ 
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow',;}
+html,body {
+  height:110%;}
+.hero_container {
+  width:100%;
+  background:url(Image/bgg099.jpg) no-repeat;
+  background-size:cover;
+  display: flex ;
+  justify-content: center ;
+  align-items:center;
+  flex-wrap: wrap;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container_1{
+  font-size: 20px;
+  font-family: cursive;
+  color:rgb(255, 255, 255);
+  text-align:center;
+  padding:210px 0px;
+}
+.container_1 button {
+  background-color:#8ce33bc6;
+  font-size:15px;
+  padding:8px 15px;
+}
+.container_1 h2 {
+  text-shadow: 2px 2px 4px #000000;
+}
+.container_2{
+  margin-top: 15px;
+  text-align: center;
+   background-color: rgba(92, 168, 45, 0.445);
+  width:100%;
+  padding: 5px;
+}
+.container_2 h2{
+  font-size: 30px;
+}
+.container_2+p{
+  font-size :20px;
+}
+.container_3 p{
+  padding:10px 20px;
+  margin :left;
+  font-size :20px;
+  width:90%;
+  margin:auto;
+}
+.container_4{
+  width:90%;
+  background-color:lightgray;
+  margin: auto;
+}
+.container_4 h2{
+  font-style: oblique;
+  text-align: left;
+  font-size: 25px;
+  color:rgba(2, 3, 4, 0.683);
+  margin:left;
+  background-size:100% 100%;
+}
+.container_5 h2{
+  text-align:center;
+  font-family:bold;
+  font-size: 28px;
+  color:rgba(8, 52, 109, 0.683);
+  margin:left;
+  background-size:100% 100%;
+}
+.container_5 p{
+  margin :left;
+  font-size :20px;
+  width:90%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+  margin:auto;
+  color: rgba(8, 52, 109, 0.683);
+}
+
+.logo img{
+  width: 92px;
+  height:65px;
+}
+.eco-product img {
+  width: 100%;
+  height: 220px;
+}
+.container_3 {
+  margin-bottom: 20px;
+}

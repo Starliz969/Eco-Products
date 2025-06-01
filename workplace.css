@@ -1,0 +1,17 @@
+ .health {
+   justify-content: space-around;
+
+ }
+
+ .environment {
+  justify-content: space-around;
+
+}
+
+.economic {
+  justify-content: space-around;
+}
+
+.col-5 img {
+   margin-top: 90px;
+}

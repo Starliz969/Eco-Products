@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: auto;
+    font-family: Arial, sans-serif;
+    background-image: url('Images/leavesdark.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+    color: rgb(255, 255, 255);
+}
+
+header h1 {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 20px;
+    font-size: 28px;
+    margin: 0;
+}
+
+.eco {
+    font-weight: bold;
+}
+
+.living {
+    color: limegreen;
+    font-weight: bold;
+}
+
+
+
+.main-box {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    margin: 20px auto;
+    width: 80%;
+    background-color: rgba(89, 142, 97, 0.358);
+    backdrop-filter: blur(3px);
+    padding: 20px 0;
+}
+
+.left {
+    flex-basis: 40%;
+    text-align: center;
+}
+
+.left img {
+    max-width: 350px;
+    height: 300px;
+}
+
+.product-label {
+    background-color: #878787bb;
+    margin: auto;
+    border-top: 1px solid black;
+    padding: 20px;
+    max-width: 310px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.harmful-text {
+    color: red;
+    font-weight: bold;
+    padding-top: 10px;
+    font-size: 40px;
+}
+
+.right {
+    flex-basis: 50%;
+    padding-left: 20px;
+    font-size: 24px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.right ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+
+.blue-button {
+    background-color: #078500;
+    color: white;
+    padding: 15px 35px;
+    border: none;
+    margin-bottom: 10px;
+}
